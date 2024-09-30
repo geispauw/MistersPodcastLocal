@@ -33,12 +33,19 @@ body {
 
 }
 
+@media screen and (max-width:700px) {
+    .top-page img {
+        display:none;
+    }
+}
+
 .top-page img {
     
-    margin: 20px 0px 0px 200px;
+    margin: 20px 0px 0px 300px;
     max-width: 325px;
     align-items:flex-end;
     flex-wrap: wrap;
+
 }
 
 nav, nav ul, nav li, nav, nav li a {
