@@ -1,0 +1,141 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing:border-box; 
+
+}
+
+h1 {
+    margin: 10px;
+    color:#ffffff;
+    font-size: 45px;
+    margin:20px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(33, 33, 33);
+}
+
+.top-page h2 {
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    margin: 20px;
+    color:#ffffff;
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+.top-page {
+    display:flex;
+    
+
+}
+
+.top-page img {
+    
+    margin: 20px 0px 0px 200px;
+    max-width: 325px;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+
+nav, nav ul, nav li, nav, nav li a {
+    background-color:#ffffff;  
+    
+    
+}
+
+li a img {
+    max-width: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+}       
+
+nav li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+nav li a:hover {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content:flex-start;
+}
+
+div a{
+    background-color: #ffffff;
+}
+
+section {
+    display: flex;
+}
+
+section p {
+    flex-wrap: wrap;
+    color: white;
+    
+}
+
+section img {
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width:200px;
+}
+
+h3 {
+    flex-wrap: wrap;
+    color: white;
+}
+
+section div {
+    padding-top: 25px;
+}
+
+section div h3 {
+    padding-bottom: 20px;
+}
+
+hr {
+    border-color:#303030;
+    display: flex;
+    justify-content: center;
+    margin: 0px 5% 0px 5%
+}
+
+footer ul a  {
+    display: flex;
+    flex-wrap:wrap;
+    text-decoration: none;
+    color:#000000;
+}
+
+footer ul img {
+    max-width: 25px;
+    padding: 3px;
+}
+
+footer a:focus {
+    font-weight:bold;
+}
+
+footer {
+    background-color:white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 50px 20px;
+}
+
+footer ul {
+    list-style-type:none ;
+}
+
+
