@@ -169,7 +169,6 @@ section div h3 {
 
 footer ul a  {
     display: flex;
-    flex-wrap:wrap;
     text-decoration: none;
     color:#000000;
 }
