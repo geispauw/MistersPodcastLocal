@@ -22,7 +22,14 @@ hr {
     border-color:#303030;
     display: flex;
     justify-content: center;
-    margin: 0px 1% 0px 1%
+    margin: 0px 1% 0px 1%;  
+}
+
+.top-page hr {
+    border-color:#303030;
+    display: flex;
+    justify-content: center;
+    margin: 0px 5%;
 }
 
 .top-page h2 {
@@ -43,9 +50,9 @@ hr {
 }
 .top-page {
     display:flex;
-    
-
+    z-index: 0;
 }
+
 
 @media screen and (max-width:700px) {
     .top-page img {
@@ -54,13 +61,25 @@ hr {
 }
 
 .top-page img {
-    
     margin: 20px 0px 0px 500px;
     max-width:500px;
     align-items:flex-end;
     flex-wrap: wrap;
-
+    animation-name:slide-in;
+    animation-duration:1s;
+    z-index:-1;
 }
+
+@keyframes slide-in{
+    0% {
+        transform:translateY(400px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
+    
+
 
 nav, nav ul, nav li, nav, nav li a {
     background-color:#ffffff;  
@@ -106,10 +125,16 @@ div a{
     margin: 10px 20px 50px 20px ;
     background-color:#311b1b ;
     border-radius: 10px;
-    max-width: 300px;
+    min-width: 300px;
     color:white;
+    overflow-x:hidden;
 }
 
+.reviews {
+    overflow-x: auto;
+    background-color: rgb(33, 33, 33);
+
+}
 .reviews p {
     margin: 5px;
     padding-top: 10px;
@@ -125,17 +150,19 @@ div a{
 
 .laatste-afleveringen {
     margin-bottom: 30px;
+    background-color: rgb(33, 33, 33);
 }
 
 .laatste-afleveringen div p {
-    max-width:400px;
+    max-width:auto;
     
 }
-div h2 {
+
+ h2 {
     margin: 30px 0px 10px 30px;
-    display:flex;
+    display: flex;
     justify-content: flex-start;
-    color:#ffffff
+    color: #ffffff;
 }
 
 section {
@@ -176,6 +203,7 @@ footer ul a  {
 footer ul img {
     max-width: 25px;
     padding: 3px;
+    list-style-type:none ;
 }
 
 footer p:focus {
@@ -186,11 +214,6 @@ footer {
     background-color:white;
     border-radius: 10px 10px 0px 0px;
     padding: 50px 40px;
-}
-
-footer ul {
-    list-style-type:none ;
-    
 }
 
 
