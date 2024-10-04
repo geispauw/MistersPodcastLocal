@@ -130,6 +130,11 @@ div a{
     min-width: 300px;
     color: white;
     overflow-x: hidden;
+    scrollbar-width: 0;
+}
+
+.reviews::-webkit-scrollbar {
+    display:none;
 }
 
 .reviews {
