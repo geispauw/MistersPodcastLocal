@@ -77,7 +77,7 @@ hr {
 
 @keyframes slide-in {
     0% {
-        transform: translateY(400px);
+        transform: translateY(330px);
     }
     100% {
         transform: translateY(0);
@@ -88,8 +88,6 @@ hr {
 
 nav, nav ul, nav li, nav, nav li a {
     background-color: #ffffff;  
-    
-    
 }
 
 li a img {
@@ -103,7 +101,6 @@ nav li a {
     color: #000000;
     text-decoration: none;
     padding: 10px;
-
 }
 
 nav li a:hover {
@@ -179,6 +176,7 @@ div a{
 section iframe {
     margin: 20px 20px 50px 30px; 
 }
+
 .showcase p {
     font-size: large;
     max-width: 600px;
@@ -188,8 +186,8 @@ section iframe {
     padding:20px;
     background-color: #303030;
     border-radius: 5px;
-
 }
+
 section {
     display: flex;
 }
