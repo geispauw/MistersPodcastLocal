@@ -174,8 +174,22 @@ div a{
     display: flex;
     justify-content: flex-start;
     color: #ffffff;
-}
+} 
 
+section iframe {
+    margin: 20px 20px 50px 30px; 
+}
+.showcase p {
+    font-size: large;
+    max-width: 600px;
+    max-height: 325px;
+    margin: 20px;
+    margin-top: 60px;
+    padding:20px;
+    background-color: #303030;
+    border-radius: 5px;
+
+}
 section {
     display: flex;
 }
