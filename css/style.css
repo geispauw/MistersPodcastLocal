@@ -1,15 +1,14 @@
 * {
    margin: 0px;
    padding: 0px;
-   box-sizing:border-box; 
-
+   box-sizing: border-box; 
 }
 
 h1 {
     margin: 10px;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 45px;
-    margin:20px;
+    margin: 20px;
     margin-left: 30px;
 }
 
@@ -19,14 +18,14 @@ body {
 }
 
 hr {
-    border-color:#303030;
+    border-color: #303030;
     display: flex;
     justify-content: center;
     margin: 0px 1% 0px 1%;  
 }
 
 .top-page hr {
-    border-color:#303030;
+    border-color: #303030;
     display: flex;
     justify-content: center;
     margin: 0px 5%;
@@ -37,7 +36,7 @@ hr {
     align-items: center;
     font-size: 30px;
     margin: 30px;
-    color:#ffffff;
+    color: #ffffff;
     margin-top: 30px;
     max-width: 600px;
 }
@@ -45,34 +44,40 @@ hr {
 .top-page div div {
     margin: 30px;
     margin-top: 50px;
-    display:flex;
+    display: flex;
 
 }
 .top-page {
-    display:flex;
+    display: flex;
     z-index: 0;
 }
 
 
 @media screen and (max-width:700px) {
     .top-page img {
-        display:none;
+        display:  none;
     }
+}
+
+.kopjestext {
+    background-color: rgb(33, 33, 33);
+    margin: 0px;
+    padding: 20px 20px 15px 25px;
 }
 
 .top-page img {
     margin: 20px 0px 0px 500px;
-    max-width:500px;
-    align-items:flex-end;
+    max-width: 500px;
+    align-items: flex-end;
     flex-wrap: wrap;
-    animation-name:slide-in;
-    animation-duration:1s;
-    z-index:-1;
+    animation-name: slide-in;
+    animation-duration: 1s;
+    z-index: -1;
 }
 
-@keyframes slide-in{
+@keyframes slide-in {
     0% {
-        transform:translateY(400px);
+        transform: translateY(400px);
     }
     100% {
         transform: translateY(0);
@@ -82,7 +87,7 @@ hr {
 
 
 nav, nav ul, nav li, nav, nav li a {
-    background-color:#ffffff;  
+    background-color: #ffffff;  
     
     
 }
@@ -109,7 +114,7 @@ nav ul {
     list-style-type: none;
     align-items: center;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
 div a{
@@ -117,22 +122,23 @@ div a{
 }
 
 .review section {
-    display:flex;
+    display: flex;
 }
 
 .reviews article {
     padding: 10px 20px;
     margin: 10px 20px 50px 20px ;
-    background-color:#311b1b ;
+    background-color: #311b1b ;
     border-radius: 10px;
     min-width: 300px;
-    color:white;
-    overflow-x:hidden;
+    color: white;
+    overflow-x: hidden;
 }
 
 .reviews {
     overflow-x: auto;
     background-color: rgb(33, 33, 33);
+    display: flex;
 
 }
 .reviews p {
@@ -142,7 +148,7 @@ div a{
 }
 
 .reviews div hr {
-    border-color:#313131;
+    border-color: #313131;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -151,11 +157,16 @@ div a{
 .laatste-afleveringen {
     margin-bottom: 30px;
     background-color: rgb(33, 33, 33);
+    display: flex;
 }
 
 .laatste-afleveringen div p {
-    max-width:auto;
-    
+    max-width: auto;
+}
+
+.laatste-afleveringen img {
+    max-width: 200px;
+    margin-bottom: 40px;
 }
 
  h2 {
@@ -178,7 +189,7 @@ section p {
 section img {
     flex-wrap: wrap;
     padding: 20px;
-    max-width:200px;
+    max-width: 200px;
 }
 
 h3 {
@@ -197,17 +208,22 @@ section div h3 {
 footer ul a  {
     display: flex;
     text-decoration: none;
-    color:#000000;
+    color: #000000;
+    
+}
+
+footer ul {
+    list-style-type: none;
 }
 
 footer ul img {
     max-width: 25px;
     padding: 3px;
-    list-style-type:none ;
+    
 }
 
 footer p:focus {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 footer {
