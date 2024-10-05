@@ -40,16 +40,12 @@ hr {
     max-width: 600px;
 }
 
-.top-page div div {
-    margin: 30px;
-    margin-top: 50px;
-    display: flex;
 
-}
 .top-page {
     display: flex;
     z-index: 0;
 }
+
 
 .kopjestext {
     background-color: rgb(33, 33, 33);
@@ -63,16 +59,18 @@ hr {
     align-items: flex-end;
     flex-wrap: wrap;
     animation-name: slide-in;
-    animation-duration: 1s;
+    animation-duration: 3s;
     z-index: -1;
 }
 
 @keyframes slide-in {
     0% {
         transform: translateY(330px);
+        opacity: 0;
     }
     100% {
         transform: translateY(0);
+        opacity: 1;
     }
     }
     
@@ -287,7 +285,7 @@ footer {
     padding: 50px 40px;
 }
 
-@keyframes fadeIn {
+@keyframes fadein {
     from { 
         opacity: 0; 
     }
@@ -296,7 +294,6 @@ footer {
     }
 }
 
-section {
-    animation: fadeIn 1s;
+section, article, .kopjestext, hr, h1 {
+    animation: fadein 1s ease-in-out;
 }
-
