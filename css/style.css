@@ -287,4 +287,16 @@ footer {
     padding: 50px 40px;
 }
 
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+section {
+    animation: fadeIn 1s;
+}
 
