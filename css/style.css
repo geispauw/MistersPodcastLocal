@@ -5,10 +5,9 @@
 }
 
 h1 {
-    margin: 10px;
+    margin: 30px;
     color: #ffffff;
     font-size: 45px;
-    margin: 20px;
     margin-left: 30px;
 }
 
@@ -50,13 +49,6 @@ hr {
 .top-page {
     display: flex;
     z-index: 0;
-}
-
-
-@media screen and (max-width:700px) {
-    .top-page img {
-        display:  none;
-    }
 }
 
 .kopjestext {
@@ -134,7 +126,7 @@ div a{
 }
 
 .reviews::-webkit-scrollbar {
-    display:none;
+    display: none;
 }
 
 .reviews {
@@ -222,6 +214,52 @@ section div h3 {
     padding-bottom: 20px;
 }
 
+.finalbar {
+    margin-bottom: 20px;
+}
+
+.overons p, .overons h3 {
+    margin: 20px 20px 0px 30px;
+    
+}
+
+.overons p {    
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.overons section, .overons h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.overons {
+    margin-bottom: 40px;
+}
+
+.overdevrienden {
+    display: flex;
+}
+
+.overdevrienden hr {
+    height: 400px;
+    display: flex;
+}
+.overdevrienden div {
+    justify-content: center;
+    text-align: center;
+}
+
+.overdevrienden {
+    display: flex;
+    align-items: center;
+}
+
+.overdevrienden img {
+    padding: 0;
+
+}
 footer ul a  {
     display: flex;
     text-decoration: none;
