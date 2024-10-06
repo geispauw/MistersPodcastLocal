@@ -130,8 +130,7 @@ div a{
     background-color: #311b1b ;
     border-radius: 10px;
     min-width: 300px;
-    overflow-x: hidden;
-    scrollbar-width: 0;
+    overflow-x: hidden; 
 }
 
 .reviews::-webkit-scrollbar {
@@ -161,10 +160,6 @@ div a{
     margin-bottom: 30px;
     background-color:var(--background-color);
     display: flex;
-}
-
-.laatste-afleveringen div p {
-    max-width: auto;
 }
 
 .laatste-afleveringen img {
