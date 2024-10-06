@@ -1,0 +1,309 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box; 
+}
+
+h1 {
+    margin: 30px;
+    color: white;
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+:root {
+    --background-color: #212121;
+    --main-color: #ffffff;
+}
+
+body {
+    font-family: sans-serif;
+    background-color:var(--background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #171717;
+        --main-color:#727272;
+    }
+}
+
+hr {
+    border-color: #303030;
+    display: flex;
+    justify-content: center;
+    margin: 0px 1% 0px 1%;  
+}
+
+.top-page hr {
+    border-color: #303030;
+    display: flex;
+    justify-content: center;
+    margin: 0px 5%;
+}
+
+.top-page h2 {
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    margin: 30px;
+    color: white;
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+
+.top-page {
+    display: flex;
+    z-index: 0;
+}
+
+
+.kopjestext {
+    background-color: var(--background-color);
+    margin: 0px;
+    padding: 20px 20px 15px 25px;
+}
+
+.top-page img {
+    margin: 20px 0px 0px 500px;
+    max-width: 500px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    animation-name: slide-in;
+    animation-duration: 3s;
+    z-index: -1;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(330px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    }
+    
+
+
+nav, nav ul, nav li, nav, nav li a {
+    background-color: var(--main-color);  
+}
+
+li a img {
+    max-width: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+}       
+
+nav li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer a:hover, nav li a:hover {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div a{
+    background-color:var(--main-color);
+}
+
+.review section {
+    display: flex;
+}
+
+.reviews article {
+    padding: 10px 20px;
+    margin: 10px 20px 50px 20px ;
+    background-color: #311b1b ;
+    border-radius: 10px;
+    min-width: 300px;
+    overflow-x: hidden;
+    scrollbar-width: 0;
+}
+
+.reviews::-webkit-scrollbar {
+    display: none;
+}
+
+.reviews {
+    overflow-x: auto;
+    background-color:var(--background-color);
+    display: flex;
+}
+
+.reviews p {
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.reviews div hr {
+    border-color: #313131;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.laatste-afleveringen {
+    margin-bottom: 30px;
+    background-color:var(--background-color);
+    display: flex;
+}
+
+.laatste-afleveringen div p {
+    max-width: auto;
+}
+
+.laatste-afleveringen img {
+    max-width: 200px;
+    margin-bottom: 40px;
+}
+
+ h2 {
+    margin: 30px 0px 10px 30px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+} 
+
+section iframe {
+    margin: 20px 20px 50px 30px; 
+}
+
+.showcase p {
+    font-size: large;
+    max-width: 600px;
+    max-height: 325px;
+    margin: 20px;
+    margin-top: 60px;
+    padding:20px;
+    background-color: #303030;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+}
+
+section p {
+    flex-wrap: wrap;
+    color: white;
+}
+
+section img {
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 200px;
+}
+
+h3 {
+    flex-wrap: wrap;
+    color: white;
+}
+
+section div {
+    padding-top: 25px;
+}
+
+section div h3 {
+    padding-bottom: 20px;
+}
+
+.finalbar {
+    margin-bottom: 20px;
+}
+
+.overons p, .overons h3 {
+    margin: 20px 20px 0px 30px;
+    
+}
+
+.overons p {    
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.overons section, .overons h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.overons {
+    margin-bottom: 40px;
+}
+
+.overdevrienden {
+    display: flex;
+}
+
+.overdevrienden hr {
+    height: 400px;
+    display: flex;
+}
+.overdevrienden div {
+    justify-content: center;
+    text-align: center;
+}
+
+.overdevrienden {
+    display: flex;
+    align-items: center;
+}
+
+.overdevrienden img {
+    padding: 0;
+}
+
+footer ul a  {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul img {
+    max-width: 25px;
+    padding: 3px;
+    
+}
+
+footer {
+    background-color:var(--main-color);
+    border-radius: 10px 10px 0px 0px;
+    padding: 50px 40px;
+}
+
+@keyframes fadein {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+section, article, .kopjestext, hr, h1 {
+    animation: fadein 1s ease-in-out;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
